@@ -8,6 +8,7 @@ using Handler = System.Action<System.Object, System.Object>;
 
 using SenderTable = System.Collections.Generic.Dictionary<System.Object, System.Collections.Generic.List<System.Action<System.Object, System.Object>>>;
 
+// most of this code is created thanks to following tutorials by Jon Parham.
 namespace Notifications
 {
 	public class NotificationCenter
